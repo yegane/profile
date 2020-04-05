@@ -11,7 +11,7 @@ export default combineReducers({
   auth: authReducer,
   signUp: signUpReducer,
   forgetPassword: forgetPassReducer,
-  profileReducer: profileReducer,
+  profileReducer,
   changePassReducer,
   homeReducer,
   qrCodeScanner,
