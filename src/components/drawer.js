@@ -31,11 +31,6 @@ function DrawerComponent(props) {
         />
         <Text style={{color: '#fff'}}>{props.nameOfProfile}</Text>
       </View>
-      {/* <DrawerItemList
-        {...props}
-        activeTintColor="red"
-        labelStyle={{fontSize: 15}}
-      /> */}
       <DrawerItem
         label="خانه"
         onPress={() => props.navigation.navigate('Main')}
