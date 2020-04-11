@@ -44,7 +44,7 @@ export const sendButtonCode = ({navigation}) => {
         port: '465',
         ssl: true, //if ssl: false, TLS is enabled,**note:** in iOS TLS/SSL is determined automatically, so either true or false is the same
         username: 'zahra.yegane79@gmail.com',
-        password: '0023279303',
+        password: '',
         from: 'zahra.yegane79@gmail.com',
         recipients: getState().forgetPassword.email,
         subject: 'کد ریکاوری رمز عبور',
