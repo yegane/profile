@@ -74,7 +74,7 @@ export const login_User = ({email, password}) => {
       })
       .catch(error => {
         dispatch({type: NETWORK_ERROR});
-        alert(error);
+        alert('خطا در ارتباط با سرور');
       });
   };
 };
