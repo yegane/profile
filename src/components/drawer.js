@@ -4,11 +4,7 @@ import {View, Text, Image} from 'react-native';
 import {profileImage} from '../image/index';
 import Icon from 'react-native-vector-icons/Ionicons';
 import {connect} from 'react-redux';
-import {
-  DrawerContentScrollView,
-  DrawerItemList,
-  DrawerItem,
-} from '@react-navigation/drawer';
+import {DrawerContentScrollView, DrawerItem} from '@react-navigation/drawer';
 
 function DrawerComponent(props) {
   return (
