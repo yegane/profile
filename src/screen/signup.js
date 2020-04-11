@@ -2,7 +2,6 @@ import React from 'react';
 import {
   View,
   Text,
-  BackHandler,
   ScrollView,
   StyleSheet,
   Image,
@@ -69,9 +68,6 @@ class SignUp extends React.Component {
     });
   };
   render() {
-    BackHandler.addEventListener('hardwareBackPress', () => {
-      this.props.back_button();
-    });
     const {
       main,
       container,

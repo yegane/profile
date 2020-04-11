@@ -185,7 +185,6 @@ android {
 }
 
 dependencies {
-    implementation project(':react-native-push-notification')
     implementation project(':react-native-network-state')
     implementation project(':@react-native-community_netinfo')
     implementation project(':react-native-linear-gradient')

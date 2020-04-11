@@ -5,7 +5,6 @@ import android.content.Context;
 import com.rnfs.RNFSPackage;
 import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
-import com.dieam.reactnativepushnotification.ReactNativePushNotificationPackage;
 import com.reactnativevietnam.RNNetworkStatePackage;
 import com.reactnativecommunity.netinfo.NetInfoPackage;
 import com.BV.LinearGradient.LinearGradientPackage;
@@ -39,7 +38,6 @@ public class MainApplication extends Application implements ReactApplication {
 
          return Arrays.<ReactPackage>asList(
             new MainReactPackage(),
-            new ReactNativePushNotificationPackage(),
             new RNNetworkStatePackage(),
             new NetInfoPackage(),
             new LinearGradientPackage(),
